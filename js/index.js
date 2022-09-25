@@ -14,7 +14,7 @@ const VegaLiteSpec = {
     "layer": [
       {
     "data": {
-      "url": "https://raw.githubusercontent.com/KIR007-glitch/FIT_3179_S2_2022_Week9/main/docs/js/oceans.json",
+      "url": "https://raw.githubusercontent.com/KIR007-glitch/FIT3179_WEEK9-HW/main/js/oceans.json",
       "format": {"type": "topojson", "feature": "oceans"}
     },
     "mark": {"type": "geoshape", "fill": "skyblue"}
@@ -22,7 +22,7 @@ const VegaLiteSpec = {
   
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/KIR007-glitch/FIT_3179_S2_2022_Week9/main/docs/js/output.json",
+          "url": "https://raw.githubusercontent.com/KIR007-glitch/FIT3179_WEEK9-HW/main/js/output.json",
           "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
         },
         "mark": {"type": "geoshape", "fill": "beige","stroke": "lightgrey"}
@@ -30,7 +30,7 @@ const VegaLiteSpec = {
       
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/KIR007-glitch/FIT_3179_S2_2022_Week9/main/docs/js/output.json",
+          "url": "https://raw.githubusercontent.com/KIR007-glitch/FIT3179_WEEK9-HW/main/js/output.json",
           "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
         },
         "mark": {"type": "geoshape","fill":null, "stroke": "white"}
@@ -39,7 +39,7 @@ const VegaLiteSpec = {
   
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/KIR007-glitch/FIT_3179_S2_2022_Week9/main/docs/Data/2021_circuits.csv",
+          "url": "https://raw.githubusercontent.com/KIR007-glitch/FIT3179_WEEK9-HW/main/Data/2021_circuits.csv",
             "format":{"type":"csv"}
         },
   
